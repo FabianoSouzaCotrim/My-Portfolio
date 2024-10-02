@@ -1,0 +1,22 @@
+
+.description {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    color: var(--color-text);
+    margin-bottom: 30px;
+  }
+  
+  .cursor {
+    display: inline-block;
+    width: 10px;
+    background-color: var(--color-text);
+    margin-left: 2px;
+    animation: blink 1s step-start infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
