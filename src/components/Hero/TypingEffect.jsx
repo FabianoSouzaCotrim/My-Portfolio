@@ -3,8 +3,8 @@ import styles from "./TypingEffect.module.css";
 
 const TypingEffect = () => {
   const fullText = 
-    "Sou desenvolvedor Full-Stack com 3 anos de experiência.\n" +
-    "Entre em contato se quiser saber mais!";
+    "Sou desenvolvedor FullStack com 3 anos de experiência.\n" +
+    "Entre em contato para saber mais!";
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);
 
@@ -13,7 +13,7 @@ const TypingEffect = () => {
       const timeout = setTimeout(() => {
         setDisplayedText((prev) => prev + fullText.charAt(index));
         setIndex(index + 1);
-      }, 100);
+      }, 40);
       return () => clearTimeout(timeout);
     }
   }, [index, fullText]);

@@ -1,10 +1,12 @@
 :root {
     /* Temas */
     --color-text: #fff;
-    --color-primary: #576cbc;
+    --color-text-secondary: #4F75FF;
+    --color-primary: #4F75FF;
     --color-secondary: #19376d;
     --color-dark: #0b2447;
-    --color-bg: #04152d;
+    --color-bg: #111;
+    --color-bg-secondary:#151515;
   
     /* Tipografia */
     --font-poppins: "Poppins";
