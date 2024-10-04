@@ -9,12 +9,23 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Fabiano Souza</h1>
         <TypingEffect/>
+        <div>
         <a
-          href="mailto:fabiano.cotrim1999@gmail.com"
+          href="https://www.linkedin.com/in/fabiano-souza-cotrim/"
           className={styles.contactBtn}
+          target="_blank"
         >
           Contato
         </a>
+
+        <a
+          href="https://www.linkedin.com/in/fabiano-souza-cotrim/"
+          className={styles.contactBtn}
+          target="_blank"
+        >
+          Projetos
+        </a>
+        </div>
       </div>
       <img
         src={getImageUrl("perfil/perfil.png")}
@@ -22,6 +33,10 @@ const Hero = () => {
         className={styles.heroImg}
       />
       <div className={styles.bottomBlur} />
+      <a className={styles.roll} href="#about"> 
+      <p> deslize para baixo </p>
+      <img src={getImageUrl("roll/scroll.png")} alt="" />
+      </a>
     </section>
   );
 };

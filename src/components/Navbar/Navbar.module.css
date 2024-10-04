@@ -30,11 +30,15 @@
 
 
 .title {
-  margin-right: 480px;
   font-size: 30px;
-  font-weight: 600;
+  font-family: var(--font-roboto);
   text-decoration: none;
-  color: var(--color-text);
+  color: var(--color-primary);
+
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .menuBtn {
@@ -52,7 +56,7 @@
 }
 
 .menuItems a {
-  font-size: 25px;
+  font-size: clamp(1.6rem, 1vw + 0.3rem, 3rem);
   color: var(--color-text);
   text-decoration: none;
 }

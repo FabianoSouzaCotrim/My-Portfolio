@@ -14,9 +14,10 @@
 .container {
   position: relative;
   display: flex;
+  width: 80vw;
   height: 80vh;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
@@ -28,12 +29,16 @@
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
+  text-align:justify;
+}
+
+.content div{
+  display: flex;
 }
 
 .title {
   font-size: 72px;
   font-weight: 500;
-  margin-bottom: 33px;
   font-family: var(--font-poppins);
   color: var(--color-primary);
 
@@ -49,23 +54,29 @@
 
 .contactBtn {
   display: flex;
+  width: 120px;
   justify-content: center;
   align-items: center;
-  background: var(--color-primary);
+  border: 2px solid var(--color-text-secondary);
   color: #fff;
   backdrop-filter: blur(10px);
   padding: 12px 32px;
   max-width: 300px;
   border-radius: 4px;
   transition: all .4s ease;
-  margin-top: 30px;
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
+  margin-right: 20%;
+}
+
+.contactBtn:hover {
+  cursor: pointer;
+  background-color: rgb(37, 37, 37);
 }
 
 .heroImg {
-  width: 30%;
+  width: 24%;
   border-radius: 50%;
   z-index: 1;
 
@@ -75,12 +86,28 @@
   animation-timing-function: ease-in-out;
 }
 
+.roll{
+  display: flex;
+  position: absolute;
+  font-size: clamp(1px, 1vw + 10px, 1rem);
+  top: 90%;
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.roll img{
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: 7;
+  animation-timing-function: ease-in-out;
+}
+
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
   }
   50% {
-    transform: translate(0, 10px);
+    transform: translate(0, 5px);
   }
   100% {
     transform: translate(0, -0px);
@@ -105,14 +132,12 @@
 
   .heroImg {
     width: 80%;
-    margin-bottom: 20%;
   }
 
   .title {
     font-size: 39px;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 20px;
   }
 
   .description {
@@ -120,18 +145,23 @@
     font-weight: 100;
     font-style: normal;
     font-family: var(--font-poppins);
-    margin-bottom: 30px;
     text-align: center;
   }
 
   .container {
     flex-direction: column-reverse;
-    justify-content: space-around;
-    margin-top: 32%;
+    margin-top: 20%;
+    justify-content: center;
   }
 
   .content {
     align-items: center;
+  }
+
+  .content div{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .bottomBlur {
@@ -146,5 +176,15 @@
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
     z-index: 0;
+  }
+
+  .contactBtn {
+    display: flex;
+    width: 120px;
+    height: 50px;
+  }
+
+  .roll{
+    top: 99%;
   }
 }

@@ -1,11 +1,27 @@
+@import "../../vars.css";
 
 .description {
     color: var(--color-text);
+    width: 40vw;
+    height: 10vh;
+    text-align: start;
     font-size: clamp(18px, 2vw + 10px, 24px);
     margin-bottom: 20px;
-    font-weight: 300;
+    font-weight: 100;
     font-family: var(--font-poppins);
   }
+
+
+  @media screen and (max-width: 830px){
+
+    .description {
+      width: 80vw;
+      height: 20vh;
+      margin-bottom: 0;
+    }
+  }
+
+
   
   .cursor {
     display: inline-block;

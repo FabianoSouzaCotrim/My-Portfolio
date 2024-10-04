@@ -1,9 +1,12 @@
 :root {
     /* Temas */
     --color-text: #fff;
-    --color-text-secondary: #4F75FF;
-    --color-primary: #4F75FF;
+    --color-text-secondary: #00d2df;
+    --color-text-tertiary: #bec7d5;
+
+    --color-primary: #00d2df;
     --color-secondary: #19376d;
+
     --color-dark: #0b2447;
     --color-bg: #111;
     --color-bg-secondary:#151515;

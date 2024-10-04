@@ -35,26 +35,29 @@
 }
 
 .about h2 {
-  font-size: clamp(0.6rem, 1vw + 0.3rem, 3rem);
+  font-size: clamp(1rem, 1vw + 0.3rem, 3rem);
   color: var(--color-text-secondary);
 }
 
 .about p {
-  font-size: clamp(0.2rem, 0.7vw + 0.2rem, 3rem);
-  color: #9ca3af;
+  margin-top: 2%;
+  font-size: clamp(1rem, 0.7vw + 0.2rem, 3rem);
+  color: var(--color-text-tertiary);
   font-style: normal;
-  font-weight: 300;
+  font-weight: 200;
   text-align: justify;
+  word-spacing: normal;
 }
 
 .title {
-  font-size: clamp(1rem, 1vw + 1rem, 3rem);
+  font-size: clamp(1.8rem, 1vw + 1rem, 3rem);
   color: var(--color-text);
 }
 
 .subtitle {
   font-size: clamp(0.5rem, 1vw + 0.1 rem, 3rem);
   color: var(--color-text);
+  font-weight: 300;
 }
 
 .navbar {
