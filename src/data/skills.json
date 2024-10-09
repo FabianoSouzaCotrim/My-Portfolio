@@ -1,0 +1,22 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "habilidades/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "habilidades/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "habilidades/react.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "habilidades/node.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "habilidades/figma.png"
+    }
+  ]

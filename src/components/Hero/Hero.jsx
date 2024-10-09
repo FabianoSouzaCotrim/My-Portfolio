@@ -9,7 +9,7 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Fabiano Souza</h1>
         <TypingEffect/>
-        <div>
+        <div className={styles.btnContainer}>
         <a
           href="https://www.linkedin.com/in/fabiano-souza-cotrim/"
           className={styles.contactBtn}

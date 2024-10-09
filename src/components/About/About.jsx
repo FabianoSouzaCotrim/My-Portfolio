@@ -21,7 +21,7 @@ const About = () => {
               <h1 className={styles.title}>Fabiano Souza</h1>
               <h3 className={styles.subtitle}>FullStack Developer</h3>
               <p>
-                Olá! Eu sou Fabiano Souza, um profissional positivo, dedicado e
+                Olá, eu sou Fabiano Souza, um profissional positivo, dedicado e
                 comunicativo, com anos de experiência trabalhando em equipe. <br />
                 Minha jornada na tecnologia começou em 2016, quando ingressei em
                 um curso de programação que durou seis meses. Desde então, fiz
@@ -46,11 +46,11 @@ const About = () => {
                       <LinkedInIcon
                         sx={{
                           fontSize: {
-                            xs: 70, // 30px em telas pequenas (mobile)
-                            sm: 30, // 40px em telas pequenas (tablet)
-                            md: 30, // 50px em telas médias (desktop)
-                            lg: 40, // 60px em telas grandes
-                            xl: 60, // 70px em telas muito grandes
+                            xs: 70,
+                            sm: 30,
+                            md: 30,
+                            lg: 40,
+                            xl: 60,
                           },
                         }}
                       />
@@ -64,11 +64,11 @@ const About = () => {
                       <GitHubIcon
                         sx={{
                           fontSize: {
-                            xs: 70, // 30px em telas pequenas (mobile)
-                            sm: 30, // 40px em telas pequenas (tablet)
-                            md: 30, // 50px em telas médias (desktop)
-                            lg: 40, // 60px em telas grandes
-                            xl: 60, // 70px em telas muito grandes
+                            xs: 70,
+                            sm: 30,
+                            md: 30,
+                            lg: 40,
+                            xl: 60,
                           },
                         }}
                       />

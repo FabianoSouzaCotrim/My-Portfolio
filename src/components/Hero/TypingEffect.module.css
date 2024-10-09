@@ -3,8 +3,7 @@
 .description {
     color: var(--color-text);
     width: 40vw;
-    height: 10vh;
-    text-align: start;
+    height: 80px;
     font-size: clamp(18px, 2vw + 10px, 24px);
     margin-bottom: 20px;
     font-weight: 100;
@@ -16,7 +15,8 @@
 
     .description {
       width: 80vw;
-      height: 20vh;
+      justify-self: center;
+      height: 120px;
       margin-bottom: 0;
     }
   }
