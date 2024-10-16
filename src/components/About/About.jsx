@@ -10,7 +10,7 @@ const About = () => {
     return (
       <>
         <section className={styles.container}>
-          <div className={styles.card}>
+          <div className={styles.card} id="sobre">
             <img
               src={getImageUrl("perfil/perfil2.png")}
               alt=""

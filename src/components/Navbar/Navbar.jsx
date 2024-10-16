@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,16 +27,24 @@ const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#sobre">Sobre</a>
+            <Link to="sobre" smooth={true} duration={500} offset={-110}>
+              Sobre
+            </Link>
           </li>
           <li>
-            <a href="#Experiencia">Experiência</a>
+            <Link to="experiencia" smooth={true} duration={500} offset={-110}>
+              Experiência
+            </Link>
           </li>
           <li>
-            <a href="#projetos">Projetos</a>
+            <Link to="projetos" smooth={true} duration={500} offset={-110}>
+              Projetos
+            </Link>
           </li>
           <li>
-            <a href="#contato">Contato</a>
+            <Link to="contato" smooth={true} duration={500}>
+              Contato
+            </Link>
           </li>
         </ul>
       </div>

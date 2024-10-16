@@ -36,7 +36,8 @@
 }
 
 .about h2 {
-  font-size: clamp(1rem, 1vw + 0.3rem, 3rem);
+  font-size: clamp(1.5rem, 1vw + 0.3rem, 3rem);
+  font-weight: 600;
   color: var(--color-text-secondary);
 }
 
@@ -56,7 +57,7 @@
 }
 
 .subtitle {
-  font-size: clamp(0.5rem, 1vw + 0.1 rem, 3rem);
+  font-size: clamp(0.4rem, 1vw + 1rem, 1.2rem);
   color: var(--color-text);
   font-weight: 300;
 }

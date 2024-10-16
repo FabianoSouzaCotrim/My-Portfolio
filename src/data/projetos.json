@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Projeto A",
+      "imageSrc": "projetos/projetos.png",
+      "description": "está por vir",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.site.com",
+      "git": "https://www.github.com"
+    },
+    {
+      "title": "Projeto B",
+      "imageSrc": "projetos/projetos.png",
+      "description": "está por vir",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "https://www.site.com",
+      "git": "https://www.github.com"
+    },
+    {
+      "title": "Projeto C",
+      "imageSrc": "projetos/projetos.png",
+      "description": "está por vir",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.site.com",
+      "git": "https://www.github.com"
+    }
+  ]

@@ -1,0 +1,97 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-bg-secondary);
+  border: 2px solid #1f1f1f;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 20px 10px;
+  gap: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.containerContact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text h2 {
+  font-size: clamp(1.25rem, 2vw + 0.5rem, 2rem);
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: var(--color-text-secondary);
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: clamp(0.1rem, 2vw + 0.5rem, 1.25rem);
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  color: var(--color-text-tertiary);
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 16px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.link a {
+  color: var(--color-text-tertiary);
+  text-decoration: none;
+  font-size: clamp(0.5rem, 2vw + 0.5rem, 0.8rem);
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  transition: color 0.3s ease;
+}
+
+.link a:hover {
+  color: var(--color-accent);
+}
+
+.copy{
+  font-size: 0.875rem;
+  text-align: center;
+  color: var(--color-text-tertiary);
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .containerContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: c;
+    align-items: center;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    margin-top: 2vh;
+    align-items: start;
+  }
+}
