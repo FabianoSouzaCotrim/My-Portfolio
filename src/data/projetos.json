@@ -1,11 +1,11 @@
 [
     {
-      "title": "Projeto A",
-      "imageSrc": "projetos/projetos.png",
-      "description": "está por vir",
-      "skills": ["React", "Express", "Node"],
+      "title": "Capputeeno Store",
+      "imageSrc": "projetos/capputeeno.png",
+      "description": "e-commerce com tema de café, vendendo camisas e canecas",
+      "skills": ["Next.js", "Typescript", "Styled Components", "GraphQL"],
       "demo": "https://www.site.com",
-      "git": "https://www.github.com"
+      "git": "https://github.com/FabianoSouzaCotrim/Capputeeno-Store"
     },
     {
       "title": "Projeto B",
